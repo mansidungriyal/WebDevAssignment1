@@ -1,0 +1,45 @@
+body{
+    /* background-color:blue */
+}
+/* child selectors >
+div >p{
+    color:blue
+}
+/*sib sel
+div ~ p{
+    color:brown;
+
+}
+/*
+:
+::
+*/
+/*pseudo-element*/
+
+/* .container{ */
+display:flex;
+/*flex direction:coloumn-reverse;
+}*/
+/*row-gap: 20px;
+.con-item{
+    height: 100px;
+    width:100px;
+    border: 1px solid black;
+}*/
+.menubar a:hover {
+    background-color: #eb7f7f;
+    color: black;}
+.menubar{
+    display:flex;
+    justify-content: flex-end;
+    display: flex;
+    background-color:black;
+    height: 40px;
+    align-items: center;
+    column-gap:10px ;
+}
+.container{
+}
+div{
+    background-color: black;
+}
